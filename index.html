@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/swiper-bundle.css">
     <title>Yae Miko</title>
 </head>
 <body>
@@ -19,9 +20,9 @@
                     <img class="header_logo-img" src="img/logo.svg" alt="">
                 </div>
                 <nav class="header__nav">
-                    <a href="#">Описание</a>
-                    <a href="#">Трейлер</a>
-                    <a href="#">Отзывы</a>
+                    <a href="https://genshin.hoyoverse.com/ru/character/inazuma?char=10">Описание</a>
+                    <a href="https://www.youtube.com/watch?v=tV2QOX9fXEE">Трейлер</a>
+                    <a href="https://wotpack.ru/jaje-miko-v-genshin-impact-luchshij-bild/?ysclid=kzme2smuio">Гайд</a>
                 </nav>
             </div>
             <div class="header_social">
@@ -38,6 +39,11 @@
         </div>        
     </header>
     <main class="main">
+        <a href = "https://www.youtube.com/watch?v=tV2QOX9fXEE" class="main_button-play">
+            <div class="main_button_dark"></div>
+            <div class="main_button_darker"><img class="main_button-play_img" src="img/Vector.svg" alt="play"></div>
+            
+        </a>
         <div class="container">
             <div class="main__raiting">
                 <div class="main_raiting-title">
@@ -56,12 +62,47 @@
                 
             </div>
             <h1 class="main_header"> Яэ Мико</h1>
-            <div class="main_description">
-                Верховная жрица Великого храма Наруками и потомок рода Кицунэ, фамильяр и подруга «вечности»... и грозный главный редактор издательского дома Яэ, публикующего новеллы.
-                Загадочная Гудзи со множеством обличий... Смертные никогда не смогут понять, кем она является в глубине души.
+            <div class="main_description-wrap">
+                <div class="main_description">
+                    Верховная жрица Великого храма Наруками и потомок рода Кицунэ, фамильяр и подруга «вечности»... и грозный главный редактор издательского дома Яэ, публикующего новеллы.
+                    Загадочная Гудзи со множеством обличий... Смертные никогда не смогут понять, кем она является в глубине души.
+                </div>              
+
             </div>
+            
             <a href="#" class="main_button">ПОЖЕРТВОВАТЬ НА ХРАМ</a>
 
+            <div class="main-slider_wrap">
+                <div class="main-slider_arrow left">
+                    <img src="img/arrow.png" alt="arrow">
+                </div>
+                <div class="main-slider swiper">
+                    <div class="swiper-wrapper">
+                        <div class="main-slider_slide swiper-slide"  data-title="Баннер #1">
+                            <img class="main-slider_image" src="img/slide-1.jpg" alt="slide-1">
+                        </div>
+                        <div class="main-slider_slide swiper-slide"  data-title="Баннер #2">
+                            <img class="main-slider_image" src="img/slide-2.jpg" alt="slide-2">
+                        </div>
+                        <div class="main-slider_slide swiper-slide"  data-title="Задание легенд #1">
+                            <img class="main-slider_image" src="img/slide-3.jpg" alt="slide-3">
+                        </div>
+                        <div class="main-slider_slide swiper-slide"  data-title="Задание легенд #2">
+                            <img class="main-slider_image" src="img/slide-4.jpg" alt="slide-4">
+                         </div>
+                        <div class="main-slider_slide swiper-slide" data-title="Новое событие">
+                            <img class="main-slider_image"  src="img/slide-5.jpg" alt="slide-5">
+                         </div>
+                        <div class="main-slider_slide swiper-slide" data-title="Новое браузерное событие">
+                            <img class="main-slider_image" src="img/slide-6.jpg" alt="slide-6">
+                        </div>
+                    </div>
+                </div>
+                <div class="main-slider_arrow right">
+                    <img src="img/arrow.png" alt="arrow">
+                </div>
+            
+            </div>
         </div>
     </main>
     <footer class="footer">
@@ -82,6 +123,7 @@
             </ul>
         </div>
     </footer>
-
+    <script src="js/swiper-bundle.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
