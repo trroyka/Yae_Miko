@@ -555,8 +555,7 @@ h1,h2,h3,h4,h5,h6{
     }
 
     .main{
-        background-position-x: 33%;
-        width: 100%;      
+        background-position-x: 33%;     
     }
 
     .main .container{
@@ -605,7 +604,7 @@ h1,h2,h3,h4,h5,h6{
     }
 
     .main-slider_wrap{
-       max-width: 53.5%;
+       max-width: 60.5%;
        margin-bottom: 10rem;
     }
 
