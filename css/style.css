@@ -593,11 +593,11 @@ h1,h2,h3,h4,h5,h6{
     }
     
     .swiper-wrapper{
-        width: 70%;
+        width: 80%;
     } 
 
     .main_information{
-        width: 80%;
+        width: 100%;
         margin-top: 10rem;
         margin-left: 2%;
         background-color: rgba(70, 15, 95, 0.7);        
@@ -608,7 +608,7 @@ h1,h2,h3,h4,h5,h6{
     }
 
     .main_description{
-        width: 60%;
+        width: 80%;
         padding-top: 2rem;
     }
 
@@ -622,6 +622,7 @@ h1,h2,h3,h4,h5,h6{
 
     .main_button{
         margin-bottom:4.4rem;
+        margin-left: 5%;
     }
 
     .main-slider_arrow_right,
