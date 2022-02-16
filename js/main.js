@@ -1,10 +1,11 @@
 const swiper = new Swiper('.main-slider', {
     // Optional parameters
     slidesPerView: 2,
-    spaceBetween: 0,    
+    spaceBetween: 10,    
     loop: true, 
     navigation: {
-      nextEl: '.main-slider_arrow',
+      nextEl: ' .main-slider_arrow_right',
+      prevEl: ' .main-slider_arrow_left',      
     }, 
     breakpoints: {
       320: {
@@ -31,7 +32,7 @@ const swiper = new Swiper('.main-slider', {
   })
 
 const modalWindow = document.querySelector('.modal');
-const buttonModal = document.querySelector('.main__button-play');
+const buttonModal = document.querySelector('.main_button-play');
 
 buttonModal.addEventListener('click', (e)=>{
   modalWindow.classList.add('active');
