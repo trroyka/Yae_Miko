@@ -697,6 +697,35 @@ h1,h2,h3,h4,h5,h6{
         display: none;
     }
 
+    .modal__inner{
+        height: 30%;
+    }
+    
+    .modal__inner_1,
+    .modal__inner_2,
+    .modal__inner_3,
+    .modal__inner_4,
+    .modal__inner_5,
+    .modal__inner_6{
+        width: 80%;            
+    }
+
+    .slide_information{
+        margin: 3rem;  
+        width: 80%;
+        display:inline-table;
+    }
+
+    .illustration{
+        margin: 3rem;
+        width: 100%;
+        overflow: hidden;
+    }
+    
+    .illustration img{
+        max-width:100%;
+    }
+
     
     .footer .container{
        flex-direction: column;

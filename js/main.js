@@ -51,89 +51,106 @@ const swiper = new Swiper('.main-slider', {
   })
 
 //первый слайд
-  const modalWindow1 = document.querySelector('.modal_1');
-  const buttonModal1 = document.querySelector('.image1');
+const modalWindow1 = document.querySelector('.modal_1');
+const buttonModal1 = document.querySelector('.image1');
   
-  buttonModal1.addEventListener('click', (e)=>{
-    modalWindow1.classList.add('active');
-  })
+buttonModal1.addEventListener('click', (e)=>{
+  modalWindow1.classList.add('active');
+})
   
-  modalWindow1.addEventListener('click', (e) => {
-    const isModal1 = e.target.closest('.modal__inner_1');
+modalWindow1.addEventListener('click', (e) => {
+  const isModal1 = e.target.closest('.modal__inner_1');
   
-      if(!isModal1)
-      {
-            modalWindow1.classList.remove('active');
-      }
-  })
+    if(!isModal1)
+    {
+          modalWindow1.classList.remove('active');
+    }
+})
 
 
   // второй слайд
-  const modalWindow2 = document.querySelector('.modal_2');
-  const buttonModal2 = document.querySelector('.image2');
+const modalWindow2 = document.querySelector('.modal_2');
+const buttonModal2 = document.querySelector('.image2');
   
-  buttonModal2.addEventListener('click', (e)=>{
-    modalWindow2.classList.add('active');
-  })
+buttonModal2.addEventListener('click', (e)=>{
+  modalWindow2.classList.add('active');
+})
   
-  modalWindow2.addEventListener('click', (e) => {
-    const isModal2 = e.target.closest('.modal__inner_2');
+modalWindow2.addEventListener('click', (e) => {
+  const isModal2 = e.target.closest('.modal__inner_2');
   
-      if(!isModal2)
-      {
-            modalWindow2.classList.remove('active');
-      }
-  })
+    if(!isModal2)
+    {
+          modalWindow2.classList.remove('active');
+    }
+})
 
 
-  // третий слайд
-  const modalWindow3 = document.querySelector('.modal_3');
-  const buttonModal3 = document.querySelector('.image3');
+// третий слайд
+const modalWindow3 = document.querySelector('.modal_3');
+const buttonModal3 = document.querySelector('.image3');
   
-  buttonModal3.addEventListener('click', (e)=>{
-    modalWindow3.classList.add('active');
-  })
+buttonModal3.addEventListener('click', (e)=>{
+  modalWindow3.classList.add('active');
+})
   
-  modalWindow3.addEventListener('click', (e) => {
-    const isModal3 = e.target.closest('.modal__inner_3');
+modalWindow3.addEventListener('click', (e) => {
+  const isModal3 = e.target.closest('.modal__inner_3');
   
-      if(!isModal3)
-      {
-            modalWindow3.classList.remove('active');
-      }
-  })
+    if(!isModal3)
+    {
+          modalWindow3.classList.remove('active');
+    }
+})
 
-  // четвертый слайд
-  const modalWindow4 = document.querySelector('.modal_4');
-  const buttonModal4 = document.querySelector('.image4');
+// четвертый слайд
+const modalWindow4 = document.querySelector('.modal_4');
+const buttonModal4 = document.querySelector('.image4');
     
-  buttonModal4.addEventListener('click', (e)=>{
-    modalWindow4.classList.add('active');
-  })
+buttonModal4.addEventListener('click', (e)=>{
+  modalWindow4.classList.add('active');
+})
     
-  modalWindow4.addEventListener('click', (e) => {
-    const isModal4 = e.target.closest('.modal__inner_4');
+modalWindow4.addEventListener('click', (e) => {
+  const isModal4 = e.target.closest('.modal__inner_4');
     
-      if(!isModal4)
-      {
-        modalWindow4.classList.remove('active');
-      }
-  })
+    if(!isModal4)
+    {
+          modalWindow4.classList.remove('active');
+    }
+})
   
-  // пятый слайд
-  const modalWindow6 = document.querySelector('.modal_6');
-  const buttonModal6 = document.querySelector('.image6');
+// пятый слайд
+const modalWindow5 = document.querySelector('.modal_5');
+const buttonModal5 = document.querySelector('.image5');
       
-  buttonModal6.addEventListener('click', (e)=>{
-    modalWindow6.classList.add('active');
-  })
+buttonModal5.addEventListener('click', (e)=>{
+  modalWindow5.classList.add('active');
+})
       
-  modalWindow6.addEventListener('click', (e) => {
-    const isModal6 = e.target.closest('.modal__inner_6');
+modalWindow5.addEventListener('click', (e) => {
+  const isModal5 = e.target.closest('.modal__inner_5');
+    
+    if(!isModal5)
+    {
+          modalWindow5.classList.remove('active');
+    }
+})
+
+// шестой слайд
+const modalWindow6 = document.querySelector('.modal_6');
+const buttonModal6 = document.querySelector('.image6');
       
-      if(!isModal6)
-      {
-        modalWindow6.classList.remove('active');
-      }
+buttonModal6.addEventListener('click', (e)=>{
+  modalWindow6.classList.add('active');
+})
+      
+modalWindow6.addEventListener('click', (e) => {
+  const isModal6 = e.target.closest('.modal__inner_6');
+      
+    if(!isModal6)
+    {
+          modalWindow6.classList.remove('active');
+    }
 })
     
