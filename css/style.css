@@ -157,7 +157,13 @@ h1,h2,h3,h4,h5,h6{
 .header__menu{
     height: 7rem;
     display: flex;
-    align-items: center;    
+    align-items: center;
+    background-color: rgba(70, 15, 95, 0.5);
+    padding-left: 3rem; 
+    padding-right: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem; 
+    border-radius: 1.5rem;    
 }
 
 .header__logo{
@@ -180,6 +186,15 @@ h1,h2,h3,h4,h5,h6{
     font-weight: normal;
     font-size: 1.4rem;
     line-height: 114%;
+}
+
+.header_social{
+    background-color: rgba(70, 15, 95, 0.7);
+    padding-left: 3rem; 
+    padding-right: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem; 
+    border-radius: 1.5rem;  
 }
 
 .header_social-icon{
