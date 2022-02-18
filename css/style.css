@@ -135,6 +135,11 @@ h1,h2,h3,h4,h5,h6{
     }
 }
 
+.all_in_one{
+    flex-direction: column;
+    min-height: 100vh;
+}
+
 .header{
     position: absolute;
     padding-bottom: 6.4rem;
@@ -202,12 +207,22 @@ h1,h2,h3,h4,h5,h6{
     background-position-x: top;
     background-position-y: top;   
     padding-bottom: 10.4rem;
-    display: flex;    
+    display: flex;
+    flex: 1;    
 }
 
 .main .container{
     display: flex; 
     justify-content: center;   
+}
+
+.money{  
+    width: 40rem;
+    height: 30rem;
+    color:#200024;
+    font-size: 3rem;
+    padding: 2rem 3rem ;
+    background-color: rgb(243, 193, 127);
 }
 
 .main_button-play{
@@ -456,7 +471,13 @@ h1,h2,h3,h4,h5,h6{
     color: rgb(255, 255, 255);
 }
 
-.modal{
+.modal, 
+.modal_1,
+.modal_2,
+.modal_3,
+.modal_4,
+.modal_5,
+.modal_6{
     position: fixed;
     top: 0;
     left: 0;
@@ -478,9 +499,54 @@ h1,h2,h3,h4,h5,h6{
     height: 60rem;
 }
 
+.modal__inner_1,
+.modal__inner_2,
+.modal__inner_3,
+.modal__inner_4,
+.modal__inner_5,
+.modal__inner_6{
+    width: 120rem;
+    background-color: rgba(36, 1, 51, 0.7);
+    box-shadow: 18px 18px 10px rgba(0, 0, 0, 0.5); 
+        
+}
+
 .active{
     display: flex;
 }
+
+.slide_information{
+    margin: 3rem;  
+    width: 100%;
+    display:inline-flex;
+    align-items: center;
+}
+
+.illustration{
+    width: 200%;
+    overflow: hidden;
+}
+
+.illustration img{
+    max-width:100%;
+}
+
+.slide_text{
+    overflow-y: auto;
+}
+
+.description_slide{
+    font-size: 1.6rem;
+    margin: 5rem;
+    line-height: 120%;    
+    height: 40rem; 
+    align-items: center; 
+    overflow-y: auto;
+    scroll-snap-type: y;        
+    scroll-snap-align: start;    
+}
+
+
 
 @media (max-width: 48em) {
     html {
